@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gradient-custom py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card bg-dark text-white  custom-card" >
+              <div class="card-body p-5 text-center">
+                <button class="btn btn-outline-light btn-lg px-5" onclick="logout()">Logout</button>
+                <div class="mb-md-5 mt-md-4 pb-5">
+                    <form>
+                  <h2 class="fw-bold mb-2 text-uppercase">Update User</h2>
+                  <form id="updateuser">
+                  <div class="mb-1">
+                    <input type="text" id="fname" class="form-control " />
+                    <label class="form-label" >First Name</label>
+                  </div>
+                  <!-- LastName -->
+                  <div class="mb-1">
+                      <input type="text" id="lname" class="form-control " />
+                      <label class="form-label">Last Name</label>
+                  </div>
+                  <!-- userName -->
+                  <div class="mb-1">
+                      <input type="text" id="userName" class="form-control " />
+                      <label class="form-label" >Username</label>
+                  </div>
+                  <!-- email -->
+                  <div class="mb-1">
+                      <input type="email" id="email" class="form-control " />
+                      <label class="form-label" >Email</label>
+                    </div>
+                    <!-- password -->
+                  <div class="mb-1">
+                    <input type="password" id="password"  class="form-control " />
+                    <label class="form-label">Password</label>
+                  </div>
+                  <button class="btn btn-outline-light btn-lg px-5" type="submit">Update user</button>
+                </div>
+            </form>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="./js/profile.js"></script>
+</html>
